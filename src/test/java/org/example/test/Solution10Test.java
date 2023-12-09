@@ -16,7 +16,7 @@ public class Solution10Test {
 
         // 测试用例2: 两个正分数相减
         String expression2 = "2/3-1/4";
-        String expected2 = "7/12";
+        String expected2 = "5/12";
         String result2 = Solution10.fractionAddition(expression2);
         Assert.assertEquals(expected2, result2);
 
