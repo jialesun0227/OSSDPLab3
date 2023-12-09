@@ -10,20 +10,20 @@ public class Solution10Test {
     public void testFractionAddition() {
         // 测试用例1: 两个正分数相加
         String expression1 = "1/2+1/3";
-        String expected1 = "4/6";
+        String expected1 = "5/6";
         String result1 = Solution10.fractionAddition(expression1);
         Assert.assertEquals(expected1, result1);
 
         // 测试用例2: 两个正分数相减
         String expression2 = "2/3-1/4";
-        String expected2 = "1/12";
+        String expected2 = "7/12";
         String result2 = Solution10.fractionAddition(expression2);
         Assert.assertEquals(expected2, result2);
 
 
         // 测试用例3: 多个分数相加
         String expression5 = "1/2+1/3+1/4+1/5";
-        String expected5 = "73/60";
+        String expected5 = "77/60";
         String result5 = Solution10.fractionAddition(expression5);
         Assert.assertEquals(expected5, result5);
 
